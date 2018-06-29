@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS - open new tab,Chrome 67.0.3396.99,,2018-06-29 11:48:09,2018-06-29 11:48:23,14.502s,PASSED
+,,,,,,
+Test Cases/open new tab,Chrome 67.0.3396.99,,2018-06-29 11:48:09,2018-06-29 11:48:22,13.127s,PASSED
+openBrowser,Chrome 67.0.3396.99,,2018-06-29 11:48:10,2018-06-29 11:48:17,7.496s,PASSED
+Statement - currentWindow = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowIndex(),Chrome 67.0.3396.99,,2018-06-29 11:48:17,2018-06-29 11:48:17,0.101s,PASSED
+opennewtab.NewTab.switchtab,Chrome 67.0.3396.99,,2018-06-29 11:48:17,2018-06-29 11:48:17,0.043s,PASSED
+Statement - nextTabIndex = currentWindow + 1,Chrome 67.0.3396.99,,2018-06-29 11:48:17,2018-06-29 11:48:17,0.019s,PASSED
+switchToWindowIndex,Chrome 67.0.3396.99,,2018-06-29 11:48:17,2018-06-29 11:48:18,0.405s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,,2018-06-29 11:48:18,2018-06-29 11:48:22,4.494s,PASSED
+switchToWindowIndex,Chrome 67.0.3396.99,,2018-06-29 11:48:22,2018-06-29 11:48:22,0.036s,PASSED

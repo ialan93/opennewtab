@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS - open new tab,Firefox 60.0,,2018-06-29 11:48:25,2018-06-29 11:48:38,13.263s,PASSED
+,,,,,,
+Test Cases/open new tab,Firefox 60.0,,2018-06-29 11:48:25,2018-06-29 11:48:37,12.226s,PASSED
+openBrowser,Firefox 60.0,,2018-06-29 11:48:25,2018-06-29 11:48:33,8.046s,PASSED
+Statement - currentWindow = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowIndex(),Firefox 60.0,,2018-06-29 11:48:33,2018-06-29 11:48:33,0.052s,PASSED
+opennewtab.NewTab.switchtab,Firefox 60.0,,2018-06-29 11:48:33,2018-06-29 11:48:33,0.064s,PASSED
+Statement - nextTabIndex = currentWindow + 1,Firefox 60.0,,2018-06-29 11:48:33,2018-06-29 11:48:33,0.002s,PASSED
+switchToWindowIndex,Firefox 60.0,,2018-06-29 11:48:33,2018-06-29 11:48:34,0.330s,PASSED
+navigateToUrl,Firefox 60.0,,2018-06-29 11:48:34,2018-06-29 11:48:37,3.399s,PASSED
+switchToWindowIndex,Firefox 60.0,,2018-06-29 11:48:37,2018-06-29 11:48:37,0.041s,PASSED

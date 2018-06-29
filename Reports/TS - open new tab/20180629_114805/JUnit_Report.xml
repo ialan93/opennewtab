@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS - open new tab" time="13" tests="1" failures="0" errors="0">
+   <testsuite name="TS - open new tab" tests="1" failures="0" errors="0" time="13" timestamp="2018-06-29 11:48:25" hostname="kl.chan - KaiLoon0917.mk.macrokiosk.com" id="Test Suites/TS - open new tab">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\kl.chan\\Katalon Studio\\opennewtab\\Reports\\TS - open new tab\\20180629_114805"/>
+         <property name="logFiles" value="C:\\Users\\kl.chan\\Katalon Studio\\opennewtab\\Reports\\TS - open new tab\\20180629_114805\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="kl.chan - KaiLoon0917.mk.macrokiosk.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="192.168.2.78"/>
+         <property name="sessionId" value="f58e6660-612f-4c0c-9538-dc7831342580"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/open new tab" classname="Test Cases/open new tab" status="PASSED">
+         <system-out><![CDATA[2018-06-29 11:48:25 - [TEST_CASE][PASSED] - Test Cases/open new tab: Test Cases/open new tab
+
+2018-06-29 11:48:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://console.etracker.cc/MES/Login'
+
+2018-06-29 11:48:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://console.etracker.cc/MES/Login'
+
+2018-06-29 11:48:33 - [TEST_STEP][PASSED] - Statement - currentWindow = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowIndex(): Current window's index is: 0
+
+2018-06-29 11:48:33 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2018-06-29 11:48:33 - [TEST_STEP][PASSED] - opennewtab.NewTab.switchtab: opennewtab.NewTab.switchtab is PASSED
+
+2018-06-29 11:48:33 - [MESSAGE][PASSED] - opennewtab.NewTab.switchtab is PASSED
+
+2018-06-29 11:48:33 - [TEST_STEP][PASSED] - Statement - nextTabIndex = currentWindow + 1: null
+
+2018-06-29 11:48:33 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-06-29 11:48:34 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-06-29 11:48:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.boldsend.com/home' successfully
+
+2018-06-29 11:48:37 - [MESSAGE][PASSED] - Navigate to 'https://www.boldsend.com/home' successfully
+
+2018-06-29 11:48:37 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '0'
+
+2018-06-29 11:48:37 - [MESSAGE][PASSED] - Switched to window with index: '0']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-29 11:48:25 - [TEST_SUITE][PASSED] - TS - open new tab: Test Cases/open new tab]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

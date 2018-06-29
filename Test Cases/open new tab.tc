@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>open new tab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>365defa6-c67c-4719-b91b-6e87a9888e72</testCaseGuid>
+   <variable>
+      <defaultValue>'https://www.boldsend.com/home'</defaultValue>
+      <description></description>
+      <id>5f29e708-0ea5-4851-9518-52b2bb70c211</id>
+      <masked>false</masked>
+      <name>newURL</name>
+   </variable>
+</TestCaseEntity>
